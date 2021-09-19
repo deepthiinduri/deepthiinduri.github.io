@@ -64,7 +64,7 @@ div {
 }
 
 .about,
-.services,
+.education,
 .skills,
 .contact,
 footer {
@@ -74,7 +74,7 @@ footer {
 
 .about .about-content,
 .skills .skills-content,
-.services .serv-content,
+.education .serv-content,
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -327,23 +327,18 @@ section .title::after {
 /**end of about page styling**/
 
 
-/**start of services page styling**/
+/**start of education page styling**/
 
-.services {
+.education {
     color: #fff;
     background: #111;
 }
 
-.services .title::before {
+.education .title::before {
     background: #fff;
 }
 
-.services .title::after {
-    background: #111;
-    content: "what i provide";
-}
-
-.services .serv-content .card {
+.education .serv-content .card {
     width: calc(33% -20px);
     background: #222;
     text-align: center;
@@ -353,36 +348,36 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.services .serv-content .card:hover {
+.education .serv-content .card:hover {
     background: crimson;
 }
 
-.services .serv-content .card .box {
+.education .serv-content .card .box {
     transition: color 0.3s ease;
 }
 
-.services .serv-content .card:hover .box {
+.education .serv-content .card:hover .box {
     transform: scale(1.05);
 }
 
-.services .serv-content .card:hover i {
+.education .serv-content .card:hover i {
     color: white;
 }
 
-.services .serv-content .card i {
+.education .serv-content .card i {
     font-size: 3.125rem;
     color: crimson;
     transition: color 0.3s ease;
 }
 
-.services .serv-content .card .text {
+.education .serv-content .card .text {
     font-size: 1.563rem;
     font-weight: 500;
     margin: 0.625rem 0 0.438rem 0;
 }
 
 
-/**end of services page styling**/
+/**end of education page styling**/
 
 
 /**start of service section**/
@@ -807,7 +802,7 @@ footer span a:hover {
     .about .about-content .right {
         flex: 100%;
     }
-    .services .serv-content .card {
+    .education .serv-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -845,7 +840,7 @@ footer span a:hover {
     .home .home-content a {
         font-size: 20px;
     }
-    .services .serv-content .card {
+    .education .serv-content .card {
         width: 100%;
     }
     .skills .skills-content .left .social ul li span {
