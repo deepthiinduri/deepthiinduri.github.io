@@ -1,2 +1,2 @@
-MY PORFOLIO :- 
+MY PORFOLIO - 
 https://deepthiinduri.github.io/
